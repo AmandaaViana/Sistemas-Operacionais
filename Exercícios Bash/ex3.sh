@@ -1,3 +1,4 @@
+#!/bin/bash
 #3. Média de três números
 #Tarefa: Solicite três números e calcule a média aritmética.
 

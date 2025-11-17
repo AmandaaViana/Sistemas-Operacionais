@@ -1,3 +1,4 @@
+#!/bin/bash
 #2. Calculadora simples
 #Tarefa: Peça dois números e mostre a soma, subtração, multiplicação e divisão.
 #Objetivo: Trabalhar operadores aritméticos e variáveis.
@@ -13,5 +14,6 @@ divisao=$(echo "$num1 / $num2" | bc)
 echo "Resultados"
 echo "Soma: $soma"
 echo "Subtraçao: $subtracao"
-echo "Divisao: $divisao"
 echo "Multiplicaçao: $multiplicacao"
+echo "Divisao: $divisao"
+

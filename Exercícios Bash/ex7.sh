@@ -1,10 +1,13 @@
+#!/bin/bash
 #7. Aprovado ou Reprovado
 #Tarefa: Peça a nota de um aluno e diga se ele foi aprovado (nota ≥ 6) ou reprovado.
 
-read -p "Digite a nota: " nota
+read -p "Digite a nota do aluno (em números): " nota
 
-if (($nota >= 6)); then
-    echo "Aluno Aprovado"
+echo "--- Resultado da Avaliação ---"
+
+if (( nota >= 6 )); then
+    echo "Parabéns! O aluno(a) foi APROVADO(A)."
 else
-    echo "Aluno Reprovado"
-fi 
+    echo "Infelizmente, o aluno(a) foi REPROVADO(A)."
+fi
